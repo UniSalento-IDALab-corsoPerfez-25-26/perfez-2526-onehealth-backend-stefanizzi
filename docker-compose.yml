@@ -1,0 +1,268 @@
+services:
+
+  environment-service:
+    build: .
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command:
+      - uvicorn
+      - services.environment.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+
+    environment:
+      DATABASE_URL: ${ONEHEALTH_DATABASE_URL:?Impostare ONEHEALTH_DATABASE_URL}
+
+    ports:
+      - "8001:8000"
+
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  health-service:
+    build: .
+    command:
+      - uvicorn
+      - services.health.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  demography-service:
+    build: .
+    command:
+      - uvicorn
+      - services.demography.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8003:8000"
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  meteorology-service:
+    build: .
+    command:
+      - uvicorn
+      - services.meteorology.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8004:8000"
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  integration-service:
+    build: .
+    command:
+      - uvicorn
+      - services.integration.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8005:8000"
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  analytics-service:
+    build: .
+    command:
+      - uvicorn
+      - services.analytics.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8006:8000"
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  ai-service:
+    build: .
+    command:
+      - uvicorn
+      - services.ai.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8007:8000"
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  orchestrator:
+    build: .
+
+    command:
+      - uvicorn
+      - services.orchestrator.app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+
+    ports:
+      - "8008:8000"
+
+    environment:
+      HEALTH_SERVICE_URL: http://health-service:8000
+      DEMOGRAPHY_SERVICE_URL: http://demography-service:8000
+      ENVIRONMENT_SERVICE_URL: http://environment-service:8000
+      METEOROLOGY_SERVICE_URL: http://meteorology-service:8000
+      INTEGRATION_SERVICE_URL: http://integration-service:8000
+      ANALYTICS_SERVICE_URL: http://analytics-service:8000
+      AI_SERVICE_URL: http://ai-service:8000
+
+    depends_on:
+      environment-service:
+        condition: service_healthy
+      health-service:
+        condition: service_healthy
+      demography-service:
+        condition: service_healthy
+      meteorology-service:
+        condition: service_healthy
+      integration-service:
+        condition: service_healthy
+      analytics-service:
+        condition: service_healthy
+      ai-service:
+        condition: service_healthy
+
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s

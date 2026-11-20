@@ -1,0 +1,1726 @@
+{
+  "component": "backend",
+  "source_snapshot": "ae2566c6bbe0af70d9155dc0b810f1fb219168e0f74aa35828a617c8ca3ab26e",
+  "source_commit": "2a1b16af81ac1770110ffceb33bfea832d6a8ece",
+  "note": "Impronte della copia di lavoro; il commit originale può non includere tutte le modifiche locali.",
+  "source_files": [
+    {
+      "path": "CONDIVISIONE_CODICE.md",
+      "origin_path": "CONDIVISIONE_CODICE.md",
+      "sha256": "9f669636455b899b44744346afbc2ab80455a9c0cf3283c939fa9dac6a66f610"
+    },
+    {
+      "path": "Dockerfile",
+      "origin_path": "Dockerfile",
+      "sha256": "0f7950ecc00b2caebca7d909b0a35272b3b8c02e2f0b233b7849d60e2d54eb18"
+    },
+    {
+      "path": "docs/README_progetto_originale.md",
+      "origin_path": "README.md",
+      "sha256": "fa7baa482ae2326ce51902eaecc60112980f0ecf33942a210924808602abd127"
+    },
+    {
+      "path": "app/__init__.py",
+      "origin_path": "app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/api/__init__.py",
+      "origin_path": "app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/api/one_health_routes.py",
+      "origin_path": "app/api/one_health_routes.py",
+      "sha256": "4ab633a93bbbf5493103153d2eb3cd34f28335def7cb27bdfd076d35127eac29"
+    },
+    {
+      "path": "app/api/research_routes.py",
+      "origin_path": "app/api/research_routes.py",
+      "sha256": "48f6bfdc160e8e300e755733b6dcc95bc141f04bfa20e52879da34c6a96cd7e5"
+    },
+    {
+      "path": "app/api/routes.py",
+      "origin_path": "app/api/routes.py",
+      "sha256": "c63e42e74da2e93a61a9f4ef11a59f6e500c91cf6a7e77093c1feee9337aacc8"
+    },
+    {
+      "path": "app/core/database.py",
+      "origin_path": "app/core/database.py",
+      "sha256": "59e9db48836ab62bcfccd5739a8bdbb66a1f82f7cc3cc51de454cc352edbf430"
+    },
+    {
+      "path": "app/main.py",
+      "origin_path": "app/main.py",
+      "sha256": "9a108a174361ff02936aeec47a0be6bdb4504b74b3c07035bc3f2e48cafe4380"
+    },
+    {
+      "path": "app/models/__init__.py",
+      "origin_path": "app/models/__init__.py",
+      "sha256": "0e4a1ea46ea65aa23044472c3eef8fb2b89ba612c95ff4afc381f6c26b88270b"
+    },
+    {
+      "path": "app/models/data_quality_issue.py",
+      "origin_path": "app/models/data_quality_issue.py",
+      "sha256": "abbc1d8d7a4c336a762467b37ee2777fe3772d8b8ffbf9b1135384fcfb39d1b8"
+    },
+    {
+      "path": "app/models/environmental_measurement.py",
+      "origin_path": "app/models/environmental_measurement.py",
+      "sha256": "435e76c0d11bcce97e2024ac125a5b352bdba876dd2e5e1adb6a13c4df014d4b"
+    },
+    {
+      "path": "app/models/ingestion_run.py",
+      "origin_path": "app/models/ingestion_run.py",
+      "sha256": "492cfc49df9aaad7bea11acf66700d8d00f35727367fc2aba70f14e767c8fe77"
+    },
+    {
+      "path": "app/models/monitoring_station.py",
+      "origin_path": "app/models/monitoring_station.py",
+      "sha256": "1a9e62d5d924de13764c77b71f2fa6cd7f9ed761ae77266d48317e5228d5cf72"
+    },
+    {
+      "path": "app/models/pollutant.py",
+      "origin_path": "app/models/pollutant.py",
+      "sha256": "38262a3a70f7b955b198bff80418840e34a1607184f30a547ae422e9eafca924"
+    },
+    {
+      "path": "app/research/artifact_repository.py",
+      "origin_path": "app/research/artifact_repository.py",
+      "sha256": "bc0c1ea58cc6a36f0c30eaaf7379f2989019055030bd7ea573196d8a56490f45"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "origin_path": "app/services/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/services/one_health.py",
+      "origin_path": "app/services/one_health.py",
+      "sha256": "a12b050b962d9566f08977624f7e84d86a467cc3524abdc254208e3e1ecb8b57"
+    },
+    {
+      "path": "config/one_health/artifact_governance_v1.json",
+      "origin_path": "config/one_health/artifact_governance_v1.json",
+      "sha256": "990cd18e5c6f0db11e650ebff77400cb07a825283ee0476b6e62b375139c3837"
+    },
+    {
+      "path": "config/one_health/comuni_puglia.csv",
+      "origin_path": "config/one_health/comuni_puglia.csv",
+      "sha256": "6d237eba861204274d7c88a8c1a5b306b3409d9fad99e550f6bd43c94f03fd02"
+    },
+    {
+      "path": "config/one_health/release_products.json",
+      "origin_path": "config/one_health/release_products.json",
+      "sha256": "c534776cbc8e375588937e74c804fbc3fba3630f3761558e77eecc0792eaa420"
+    },
+    {
+      "path": "config/one_health/source_registry_v1.json",
+      "origin_path": "config/one_health/source_registry_v1.json",
+      "sha256": "1e7d40a651128bc44815c7c0991ae3efb8138bf21ddc27cd3130b08fbebe3c09"
+    },
+    {
+      "path": "config/one_health/stazioni_dashboard.csv",
+      "origin_path": "config/one_health/stazioni_dashboard.csv",
+      "sha256": "d225cd40d4f4ea7d261ebfba0403fa7ae8d374b47cd4cf3006328614afbfafcd"
+    },
+    {
+      "path": "docker-compose.yml",
+      "origin_path": "docker-compose.yml",
+      "sha256": "d46ae05ad720b05b92831015e6001eca161fcbdec1b387920794e08ffba71058"
+    },
+    {
+      "path": "etl/__init__.py",
+      "origin_path": "etl/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/audit.py",
+      "origin_path": "etl/audit.py",
+      "sha256": "a7448e0236b98519e530f14c04a911fd350e9c0fd2cf2e68ae0054af054824e8"
+    },
+    {
+      "path": "etl/cli.py",
+      "origin_path": "etl/cli.py",
+      "sha256": "22a7d86d721de4985efadb279eb603fb23dedaaf68681dcf3180b28beef56b22"
+    },
+    {
+      "path": "etl/clients/health_ckan.py",
+      "origin_path": "etl/clients/health_ckan.py",
+      "sha256": "b1521696e782dd411135fe869590b14869dcd16b504782be10096fe4b65423a7"
+    },
+    {
+      "path": "etl/clients/istat_demography.py",
+      "origin_path": "etl/clients/istat_demography.py",
+      "sha256": "229062c62a5c1c5b531fdb26f6ea822497fcca1b3886f92c82de0fe7a9ec2841"
+    },
+    {
+      "path": "etl/clients/meteorology_ckan.py",
+      "origin_path": "etl/clients/meteorology_ckan.py",
+      "sha256": "45fa3e5eaa35be5f9542ba8ea6b8ab0492699d32262f6f87c9b0a95a0499730f"
+    },
+    {
+      "path": "etl/clients/puglia_ckan.py",
+      "origin_path": "etl/clients/puglia_ckan.py",
+      "sha256": "7b7c24e46988a0dccf743c11c0c96f48fdbf953a5028f95be393f97340b5fe4a"
+    },
+    {
+      "path": "etl/config.py",
+      "origin_path": "etl/config.py",
+      "sha256": "cc3135213f9b701f92459c73d9aa40d8184b3473341078b842efbb916bdea414"
+    },
+    {
+      "path": "etl/connectors/__init__.py",
+      "origin_path": "etl/connectors/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/connectors/arpa_client.py",
+      "origin_path": "etl/connectors/arpa_client.py",
+      "sha256": "95b01ef0a7fcc6a84c35f119cecbe58119ddab26dc0134c9d17678f5034788a5"
+    },
+    {
+      "path": "etl/integration/__init__.py",
+      "origin_path": "etl/integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/integration/one_health.py",
+      "origin_path": "etl/integration/one_health.py",
+      "sha256": "2fdda807e845f00c4882896ba41426e35337e37c431fe48d7e3bb3a5d78acea5"
+    },
+    {
+      "path": "etl/loaders/__init__.py",
+      "origin_path": "etl/loaders/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/loaders/database.py",
+      "origin_path": "etl/loaders/database.py",
+      "sha256": "710d07e9c77c5049cda0c2ce0a835f3cea26d42f858417337c1f12048a639054"
+    },
+    {
+      "path": "etl/models/__init__.py",
+      "origin_path": "etl/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/models/arpa.py",
+      "origin_path": "etl/models/arpa.py",
+      "sha256": "2e3b03c994a5a5e0dccf11ca024cd5ee2472f0d2a4e6f8d886fa85c6aa854ae7"
+    },
+    {
+      "path": "etl/parsers/__init__.py",
+      "origin_path": "etl/parsers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/parsers/demography.py",
+      "origin_path": "etl/parsers/demography.py",
+      "sha256": "ac8f5e57aefb23626d6c42556690a4555347c407be6374a0061fed6762b6381d"
+    },
+    {
+      "path": "etl/parsers/health.py",
+      "origin_path": "etl/parsers/health.py",
+      "sha256": "39dbab225f501f50fe2eefc149818171d0ae56bdc64db43888328b001b8720c3"
+    },
+    {
+      "path": "etl/parsers/measurements.py",
+      "origin_path": "etl/parsers/measurements.py",
+      "sha256": "7e7e9261db78434d7deecfd0779f6dab1fd00b6df6f8be637caf772f2839a91e"
+    },
+    {
+      "path": "etl/parsers/meteorology.py",
+      "origin_path": "etl/parsers/meteorology.py",
+      "sha256": "c182a1042f0fde87781d8e82ef51b16127259f554169d425a8ee95ef62a653b0"
+    },
+    {
+      "path": "etl/parsers/pollutants.py",
+      "origin_path": "etl/parsers/pollutants.py",
+      "sha256": "a405055623029dd3442b2c79ecd7902627e9b0ebfe212e4de679a6665ef88f65"
+    },
+    {
+      "path": "etl/parsers/stations.py",
+      "origin_path": "etl/parsers/stations.py",
+      "sha256": "70df04ee5468558067b899b3ea21878bfdab2902c61733349dd1bb25db65b698"
+    },
+    {
+      "path": "etl/pipelines/__init__.py",
+      "origin_path": "etl/pipelines/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/pipelines/health.py",
+      "origin_path": "etl/pipelines/health.py",
+      "sha256": "a0407a0eb7f003beec3701c164928b6375e29d543ca58f862f0cd3210ff00bc7"
+    },
+    {
+      "path": "etl/pipelines/meteorology.py",
+      "origin_path": "etl/pipelines/meteorology.py",
+      "sha256": "8b491f07563605f0c08c5096188aa470537fbcbfb4653bd971946c10adc42e1e"
+    },
+    {
+      "path": "etl/pipelines/one_health.py",
+      "origin_path": "etl/pipelines/one_health.py",
+      "sha256": "58e3b9fd31f3380fddeeb976a3b011d5eca1561084df99cb2c30fc6caea0e5ef"
+    },
+    {
+      "path": "etl/profilers/__init__.py",
+      "origin_path": "etl/profilers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/profilers/csv_profiler.py",
+      "origin_path": "etl/profilers/csv_profiler.py",
+      "sha256": "457519f1a3e416bea3f9ed51da500f0ee53b40f51c2a1ecfd9fca59120c7ef45"
+    },
+    {
+      "path": "etl/release_guard.py",
+      "origin_path": "etl/release_guard.py",
+      "sha256": "98c31949fa7cdf74c83604186776681d9915a19f0e97bc02e9419cbfc4919324"
+    },
+    {
+      "path": "etl/reporters/__init__.py",
+      "origin_path": "etl/reporters/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/reporters/one_health_quality.py",
+      "origin_path": "etl/reporters/one_health_quality.py",
+      "sha256": "e21d4ef636d6a6adbb6bd45e078b099766586633b7de2b5d75ee85713fc98ace"
+    },
+    {
+      "path": "etl/transformers/__init__.py",
+      "origin_path": "etl/transformers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/transformers/demography.py",
+      "origin_path": "etl/transformers/demography.py",
+      "sha256": "eab8b5de2eaa954bcb7aac72a00a461e88fb61ff709ac4f4723cbffaf8b5f0cd"
+    },
+    {
+      "path": "etl/transformers/environment_historical.py",
+      "origin_path": "etl/transformers/environment_historical.py",
+      "sha256": "888f45d09b48dbb128b2a77e0cebd1c4e0203ff14478e60f05ca67b936a429e7"
+    },
+    {
+      "path": "etl/transformers/health.py",
+      "origin_path": "etl/transformers/health.py",
+      "sha256": "d6beade298acbade9d51fc50b71bdf9309487e28ce152fd26183025cafc07133"
+    },
+    {
+      "path": "etl/transformers/health_prevalence_historical.py",
+      "origin_path": "etl/transformers/health_prevalence_historical.py",
+      "sha256": "83e9f6719404cb6e1d627e1800dc61d45ba42e3576da39e638199a169be78ce0"
+    },
+    {
+      "path": "etl/transformers/health_rates.py",
+      "origin_path": "etl/transformers/health_rates.py",
+      "sha256": "04749b0a1fa477e305428ea0be66d0ff8a9ff456a5c791b90b8446a83707ef86"
+    },
+    {
+      "path": "etl/transformers/measurements.py",
+      "origin_path": "etl/transformers/measurements.py",
+      "sha256": "0074d7d4b2cabcec5acc0023940284a670288932ffa3130308358edff1f71909"
+    },
+    {
+      "path": "etl/transformers/meteorology.py",
+      "origin_path": "etl/transformers/meteorology.py",
+      "sha256": "e10664e2f2fa09b8b4fa1f88d95a92ba2e447ad403687e4a851db8a56a28a011"
+    },
+    {
+      "path": "etl/transformers/meteorology_asl.py",
+      "origin_path": "etl/transformers/meteorology_asl.py",
+      "sha256": "f9d4b2fb8943169153165f042ea24e4278da4f9af45ba308a981c590ce8a064c"
+    },
+    {
+      "path": "etl/transformers/meteorology_daily.py",
+      "origin_path": "etl/transformers/meteorology_daily.py",
+      "sha256": "ecb0a4ac2532c96ea16b9b0d68af382556a52742f4b52ff4cc096dd29bfd197d"
+    },
+    {
+      "path": "etl/transformers/one_health.py",
+      "origin_path": "etl/transformers/one_health.py",
+      "sha256": "58e1a9b6417b1c7bcd83073b8869211956f230abdfcfc6193e8cd5882e3d9ece"
+    },
+    {
+      "path": "etl/transformers/one_health_ml_longitudinal.py",
+      "origin_path": "etl/transformers/one_health_ml_longitudinal.py",
+      "sha256": "b7450a74672c592524d7f74a7206878c876d764eb41b09f5ce30eb0e7f471a9e"
+    },
+    {
+      "path": "etl/transformers/pollutants.py",
+      "origin_path": "etl/transformers/pollutants.py",
+      "sha256": "d68bc8314bea99d5db2a6c7bddf9b41cb983d3890867aa8eac3a3053faeff0b8"
+    },
+    {
+      "path": "etl/transformers/stations.py",
+      "origin_path": "etl/transformers/stations.py",
+      "sha256": "d52a2e3696319556840fd0ad337e01156552595497c2a145ab6afa965a061d7a"
+    },
+    {
+      "path": "etl/update_status.py",
+      "origin_path": "etl/update_status.py",
+      "sha256": "8ccb83bb5dcfa0142793b1bb6a29d36ff869f449188063efb5e0a559c905d504"
+    },
+    {
+      "path": "etl/validators/__init__.py",
+      "origin_path": "etl/validators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/validators/health.py",
+      "origin_path": "etl/validators/health.py",
+      "sha256": "6bd35c6653f10bb0b1c34f569b8da1f2b8ab0cef93fd89e36affa7856d82b782"
+    },
+    {
+      "path": "etl/validators/measurements.py",
+      "origin_path": "etl/validators/measurements.py",
+      "sha256": "74f4fffaa74923a0785cd60633b1f0d3d84ac7683a69fdeaf3209fa12a05df56"
+    },
+    {
+      "path": "etl/validators/meteorology.py",
+      "origin_path": "etl/validators/meteorology.py",
+      "sha256": "5637d7d179c75e0ff6e53de1e40ddf71039d9164f397abc12b458eb5d08a870f"
+    },
+    {
+      "path": "etl/validators/pollutants.py",
+      "origin_path": "etl/validators/pollutants.py",
+      "sha256": "e00692dec12c3fdae0fa7a1222e65b0f2afa8f53485bc2ca49e64eaaf7b7fd4d"
+    },
+    {
+      "path": "etl/validators/stations.py",
+      "origin_path": "etl/validators/stations.py",
+      "sha256": "cf7d2277bce6592d11c4bb49aa9259868f10705c1ca94b408ce31d22d32174b4"
+    },
+    {
+      "path": "etl/versioning/__init__.py",
+      "origin_path": "etl/versioning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/versioning/dataset_manifest.py",
+      "origin_path": "etl/versioning/dataset_manifest.py",
+      "sha256": "7df1212311158545512614a79be6b362215fa4a4fdd888d989773c3318a2b4d5"
+    },
+    {
+      "path": "gateway/app/__init__.py",
+      "origin_path": "gateway/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pyproject.toml",
+      "origin_path": "pyproject.toml",
+      "sha256": "35e7b6dbcca580adcca81425cfc3fc2321ce1f2cbebed700b0b09ebeb506d9e8"
+    },
+    {
+      "path": "scripts/build_one_health_ml_longitudinal.py",
+      "origin_path": "scripts/build_one_health_ml_longitudinal.py",
+      "sha256": "7e8262aacc6b6c6b03154dd6e4c60d7041e23ef58aabc8d89187e485fe980882"
+    },
+    {
+      "path": "scripts/create_tables.py",
+      "origin_path": "scripts/create_tables.py",
+      "sha256": "6e95b026695b6adb5f916b86de1acf0df2cdac070f66571274b2efcbc5648213"
+    },
+    {
+      "path": "scripts/maintenance/cleanup_root_wrappers.py",
+      "origin_path": "scripts/maintenance/cleanup_root_wrappers.py",
+      "sha256": "a57600bd25abb551ccf5963f045b8741291d40754625864e0eda73565b669b84"
+    },
+    {
+      "path": "scripts/maintenance/export_code.py",
+      "origin_path": "scripts/maintenance/export_code.py",
+      "sha256": "168309bc3e7e16578001f29aa05b22670fe6b7e791f2dd68656ad398da8db283"
+    },
+    {
+      "path": "scripts/maintenance/onehealth_runtime.py",
+      "origin_path": "scripts/maintenance/onehealth_runtime.py",
+      "sha256": "1c746a06c757e5608bdce2a3f8305b128d84c0c0c0eab442cb29d1b1005b6c89"
+    },
+    {
+      "path": "scripts/one_health/artifact_access.py",
+      "origin_path": "scripts/one_health/artifact_access.py",
+      "sha256": "3e4b9e0c349fa42dfc28784b436c1eda4b9a522f3e5d381a9ca75d91bc9ed87c"
+    },
+    {
+      "path": "scripts/one_health/build_dss_2024.py",
+      "origin_path": "scripts/one_health/build_dss_2024.py",
+      "sha256": "5180d89bdf10ace8ff563f72c8f990f42344a542774bace2bf5ed58641021273"
+    },
+    {
+      "path": "scripts/one_health/build_dss_monthly.py",
+      "origin_path": "scripts/one_health/build_dss_monthly.py",
+      "sha256": "261afceadf79ecb7e86db5942e4a55bea4b7ace315987413709cc8372c44a0f9"
+    },
+    {
+      "path": "scripts/one_health/coordinate_updates.py",
+      "origin_path": "scripts/one_health/coordinate_updates.py",
+      "sha256": "3bff64a80cc82132d22a3b7bcb82a9d70f92cc59ee92c016d3489542a621e5b7"
+    },
+    {
+      "path": "scripts/one_health/pending_updates.py",
+      "origin_path": "scripts/one_health/pending_updates.py",
+      "sha256": "bd27cb01900523f16d41f8af79e2f62ad82a9ce765183977e003531a58426535"
+    },
+    {
+      "path": "scripts/one_health/promotion_audit.py",
+      "origin_path": "scripts/one_health/promotion_audit.py",
+      "sha256": "fc92cd33237bfec0d8dd1c7ce696ad98b6eead7bb4d0a74820cec554f7c7c547"
+    },
+    {
+      "path": "scripts/one_health/promotion_review.py",
+      "origin_path": "scripts/one_health/promotion_review.py",
+      "sha256": "c3097d61a8d037318dee57464b888e27f4e6d53a2ef0276752d1094e215cc102"
+    },
+    {
+      "path": "scripts/one_health/source_status.py",
+      "origin_path": "scripts/one_health/source_status.py",
+      "sha256": "fad0de3930b595957cc16313f3153c24409cccdd0e297e870241cd37caf971f1"
+    },
+    {
+      "path": "scripts/one_health/update_plan.py",
+      "origin_path": "scripts/one_health/update_plan.py",
+      "sha256": "85e0b68a6e3062ba5d088f869baae96758bed5059ba073a92b666d81497fcff0"
+    },
+    {
+      "path": "services/ai/app/__init__.py",
+      "origin_path": "services/ai/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/ai/app/dss_repository.py",
+      "origin_path": "services/ai/app/dss_repository.py",
+      "sha256": "8632c775dd8da65a07167c04beee158abcb029efb986032e947235496f47a41d"
+    },
+    {
+      "path": "services/ai/app/main.py",
+      "origin_path": "services/ai/app/main.py",
+      "sha256": "659ff503b7c93a3fa0440c71dbfb8739348f8cdca0ca964e498b13d9b1a7d4b3"
+    },
+    {
+      "path": "services/ai/app/routes.py",
+      "origin_path": "services/ai/app/routes.py",
+      "sha256": "bff59db7673f0035250bf30b471a58b87413de8341e7ff014cc2518a852fee0a"
+    },
+    {
+      "path": "services/ai/app/scenarios.py",
+      "origin_path": "services/ai/app/scenarios.py",
+      "sha256": "02b5f318234b2946360551a17944e00ae68175f5265aa40439d30ec0c8a8567d"
+    },
+    {
+      "path": "services/ai/app/service.py",
+      "origin_path": "services/ai/app/service.py",
+      "sha256": "10fa129129c67177980c41d00a9429e4dca68600d99edc9608c3b57ece49ce62"
+    },
+    {
+      "path": "services/analytics/app/__init__.py",
+      "origin_path": "services/analytics/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/analytics/app/main.py",
+      "origin_path": "services/analytics/app/main.py",
+      "sha256": "113cb3fed978971e09928144c40a63e1ea1d0ff6322ca3a6676a33d4b87fcf40"
+    },
+    {
+      "path": "services/analytics/app/repository.py",
+      "origin_path": "services/analytics/app/repository.py",
+      "sha256": "356fe51644d9f75686aabe7e5b992c17ccb74ea48221761bea173c13a3f321bc"
+    },
+    {
+      "path": "services/analytics/app/routes.py",
+      "origin_path": "services/analytics/app/routes.py",
+      "sha256": "0a08c7e550b2a6377933951f095d9353118362e2ed9b0c6ae3ab521819a7533b"
+    },
+    {
+      "path": "services/analytics/app/service.py",
+      "origin_path": "services/analytics/app/service.py",
+      "sha256": "7c94527a06ca5c28e096f0d1c0d62c7f121ba3de5d041e7e8a78951154744453"
+    },
+    {
+      "path": "services/decision_support/app/__init__.py",
+      "origin_path": "services/decision_support/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/demography/app/__init__.py",
+      "origin_path": "services/demography/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/demography/app/ingestion.py",
+      "origin_path": "services/demography/app/ingestion.py",
+      "sha256": "2d5ad898391f8014fc91ef502dc954104c6e215adecdbfa88773896c049bd171"
+    },
+    {
+      "path": "services/demography/app/main.py",
+      "origin_path": "services/demography/app/main.py",
+      "sha256": "3fd03b05b48cc4b077607b83324b166ad634bc61d5cb74228b949b347f2f7fef"
+    },
+    {
+      "path": "services/demography/app/repository.py",
+      "origin_path": "services/demography/app/repository.py",
+      "sha256": "6fb5e4d7bbccdbe47d682ff49c4da12f091d1cc4740e8f256a7d014c772daa1f"
+    },
+    {
+      "path": "services/demography/app/routes.py",
+      "origin_path": "services/demography/app/routes.py",
+      "sha256": "7011d4784eeefc696459c64c6741c1ba8132d0872ca861c4410c8562491481fd"
+    },
+    {
+      "path": "services/demography/app/service.py",
+      "origin_path": "services/demography/app/service.py",
+      "sha256": "fc16d89dcc554b52b4f13dc42796874ed9ded33319b2fd5b27f9744fae51cefa"
+    },
+    {
+      "path": "services/environment/app/__init__.py",
+      "origin_path": "services/environment/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/api/__init__.py",
+      "origin_path": "services/environment/app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/api/config.py",
+      "origin_path": "services/environment/app/api/config.py",
+      "sha256": "cf8d72d8b6ef59f9c5aa422a6175343c50295dc78ec816d1fa4c8a8244cf1d81"
+    },
+    {
+      "path": "services/environment/app/api/routes.py",
+      "origin_path": "services/environment/app/api/routes.py",
+      "sha256": "54282e7b7ebf0a87eaffd7d2bfe582efc8b717efe918040b0091f5fa6c8c246a"
+    },
+    {
+      "path": "services/environment/app/application/__init__.py",
+      "origin_path": "services/environment/app/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/domain/__init__.py",
+      "origin_path": "services/environment/app/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/infrastructure/__init__.py",
+      "origin_path": "services/environment/app/infrastructure/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/ingestion.py",
+      "origin_path": "services/environment/app/ingestion.py",
+      "sha256": "28c40d8e5a2b55decbcdd991e35b6c27221f15beea08ab081f87a0e6725fe308"
+    },
+    {
+      "path": "services/environment/app/main.py",
+      "origin_path": "services/environment/app/main.py",
+      "sha256": "ec4372359636e6fd1ecac6533f9581ad1b841d88638adb60ab07b2fc68cb6fc0"
+    },
+    {
+      "path": "services/environment/app/repository.py",
+      "origin_path": "services/environment/app/repository.py",
+      "sha256": "b199bb224c74ead3352ad6367c53691841e23bb7a1d767f405a1bbc194b7ed64"
+    },
+    {
+      "path": "services/environment/app/routes.py",
+      "origin_path": "services/environment/app/routes.py",
+      "sha256": "aaf26005f1b9aafda3ebff40d547fc33da120adebb48e21512802cd01b1ae0ac"
+    },
+    {
+      "path": "services/environment/app/service.py",
+      "origin_path": "services/environment/app/service.py",
+      "sha256": "73b182ff77ca273cc84a53ede2ea8eb1872a2d3e4420348589e178990ee61442"
+    },
+    {
+      "path": "services/health/app/__init__.py",
+      "origin_path": "services/health/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/api/__init__.py",
+      "origin_path": "services/health/app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/api/routes.py",
+      "origin_path": "services/health/app/api/routes.py",
+      "sha256": "4b5ce194918d34f026fa00558cbefa7e0c1741ca388fdf1afa4e8cf86af3d388"
+    },
+    {
+      "path": "services/health/app/api/schemas.py",
+      "origin_path": "services/health/app/api/schemas.py",
+      "sha256": "2c189cb99a7ab4f77597052f4b38dac747f6b4267196ea9122ddd17ccdca1977"
+    },
+    {
+      "path": "services/health/app/application/__init__.py",
+      "origin_path": "services/health/app/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/ingestion.py",
+      "origin_path": "services/health/app/application/ingestion.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/parser.py",
+      "origin_path": "services/health/app/application/parser.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/pipeline.py",
+      "origin_path": "services/health/app/application/pipeline.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/service.py",
+      "origin_path": "services/health/app/application/service.py",
+      "sha256": "1bf56ada905e770051685f15af0378a511d1acfc7624d442bbaed430877434b9"
+    },
+    {
+      "path": "services/health/app/application/transformer.py",
+      "origin_path": "services/health/app/application/transformer.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/validator.py",
+      "origin_path": "services/health/app/application/validator.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/domain/__init__.py",
+      "origin_path": "services/health/app/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/infrastructure/__init__.py",
+      "origin_path": "services/health/app/infrastructure/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/infrastructure/health_ckan.py",
+      "origin_path": "services/health/app/infrastructure/health_ckan.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/infrastructure/health_repository.py",
+      "origin_path": "services/health/app/infrastructure/health_repository.py",
+      "sha256": "7ebc8477895d702c7a20eabdd0ece3253308b7dfcf7e7fa584d76455fc6abbf5"
+    },
+    {
+      "path": "services/health/app/ingestion.py",
+      "origin_path": "services/health/app/ingestion.py",
+      "sha256": "c58ef274c480b1a70e1ea2863134614ec5f3ab925355749b29b154073dc3b97b"
+    },
+    {
+      "path": "services/health/app/main.py",
+      "origin_path": "services/health/app/main.py",
+      "sha256": "252dfa4f4656e712148bad2b4c8384257f52ea20f7b122d356533c5938210136"
+    },
+    {
+      "path": "services/health/app/repository.py",
+      "origin_path": "services/health/app/repository.py",
+      "sha256": "2b352065dd67ec479dfb736b01f18d64f96281be84c33b32667c52dc6a991735"
+    },
+    {
+      "path": "services/health/app/routes.py",
+      "origin_path": "services/health/app/routes.py",
+      "sha256": "d29569eb298c19154e1e538bc92f5ab1428e8826def71db8f975f9bae54da6d9"
+    },
+    {
+      "path": "services/health/app/service.py",
+      "origin_path": "services/health/app/service.py",
+      "sha256": "ca4364ca26ba244876f64f839506172de29409de45dc318066478ae50afd5b57"
+    },
+    {
+      "path": "services/integration/app/__init__.py",
+      "origin_path": "services/integration/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/integration/app/ingestion.py",
+      "origin_path": "services/integration/app/ingestion.py",
+      "sha256": "8a432b37883a18292e444bcfaa0af3b2f5a3fed19b86e544497a5bd7976afae8"
+    },
+    {
+      "path": "services/integration/app/main.py",
+      "origin_path": "services/integration/app/main.py",
+      "sha256": "18a6cc19e88d50382ccdb13c9f90e9dd4d8bda9804c6c116a4fb0bfa90ddc1ca"
+    },
+    {
+      "path": "services/integration/app/repository.py",
+      "origin_path": "services/integration/app/repository.py",
+      "sha256": "39f4853cb562fe8463112b17c945053e39fe3153780b84e6c3e77cb12e17492d"
+    },
+    {
+      "path": "services/integration/app/routes.py",
+      "origin_path": "services/integration/app/routes.py",
+      "sha256": "f9ddbb2a83313a3dae7520984a093538b963309f41f766007eaad1eb98cea49c"
+    },
+    {
+      "path": "services/integration/app/service.py",
+      "origin_path": "services/integration/app/service.py",
+      "sha256": "39c7181e79615a890c162d9aed005758a1503527e9f9f2d19992119076392269"
+    },
+    {
+      "path": "services/meteorology/app/__init__.py",
+      "origin_path": "services/meteorology/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/meteorology/app/ingestion.py",
+      "origin_path": "services/meteorology/app/ingestion.py",
+      "sha256": "135600857e56cb31d54d9bfaa8b620d66633076aa4ecf32069c0c06fe88b9ca7"
+    },
+    {
+      "path": "services/meteorology/app/main.py",
+      "origin_path": "services/meteorology/app/main.py",
+      "sha256": "a8717866502e1b50a52302542d583f496f7e38f34cab783c1361c6a0bdf3276d"
+    },
+    {
+      "path": "services/meteorology/app/repository.py",
+      "origin_path": "services/meteorology/app/repository.py",
+      "sha256": "2e6fe66a9fb3c8fc813798d9336730fd12353d98d27d504bc480b57a984a2a1d"
+    },
+    {
+      "path": "services/meteorology/app/routes.py",
+      "origin_path": "services/meteorology/app/routes.py",
+      "sha256": "b959a88f7e57c3d7e73f0321033fd69bbf432a655e7dcf6d3d5c9951af06d8d8"
+    },
+    {
+      "path": "services/meteorology/app/service.py",
+      "origin_path": "services/meteorology/app/service.py",
+      "sha256": "d870055e656c8a7c5e2b66d3b5852c8e56b1cd7ef91e897074aec9fe8f3846a7"
+    },
+    {
+      "path": "services/orchestrator/app/__init__.py",
+      "origin_path": "services/orchestrator/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/orchestrator/app/client.py",
+      "origin_path": "services/orchestrator/app/client.py",
+      "sha256": "17e9601450a10d4e55dfbf0997172edbe5f43e177a6fbb393fd333b86d8a5a7b"
+    },
+    {
+      "path": "services/orchestrator/app/config.py",
+      "origin_path": "services/orchestrator/app/config.py",
+      "sha256": "c26b1d9b6725972f27d6ab04dfa74c93d052d64a2530689fa6d0cc1742ba0545"
+    },
+    {
+      "path": "services/orchestrator/app/main.py",
+      "origin_path": "services/orchestrator/app/main.py",
+      "sha256": "1976f0555ff8f44f80a45f26cb6d0f853f537396a85732d5eb230f700f3b93e2"
+    },
+    {
+      "path": "services/orchestrator/app/routes.py",
+      "origin_path": "services/orchestrator/app/routes.py",
+      "sha256": "539e745b49fc572efc20d585f090898f61ee5ff0627a6b50ebf1121da54c384c"
+    },
+    {
+      "path": "services/orchestrator/app/service.py",
+      "origin_path": "services/orchestrator/app/service.py",
+      "sha256": "3b25f5ebb8f6115d7eba057987d705846d3f1f53c55d9e248062c8a3fa469462"
+    },
+    {
+      "path": "shared/contracts/events/__init__.py",
+      "origin_path": "shared/contracts/events/__init__.py",
+      "sha256": "f2a12b64cc353009dee265db6978e29787d1989512aa7c09ca40dfaf0a90b789"
+    },
+    {
+      "path": "shared/contracts/events/base.py",
+      "origin_path": "shared/contracts/events/base.py",
+      "sha256": "309bf0e6334bfd9084bd9716d85f1d86fce783042bab10965b8da39f4b2b45cf"
+    },
+    {
+      "path": "shared/contracts/events/environment.py",
+      "origin_path": "shared/contracts/events/environment.py",
+      "sha256": "d2cdbc4aad3bf3154bb139cc469122327aace0862d205309c8d86b5898d7fe57"
+    },
+    {
+      "path": "tests/services/ai/test_ai_pipeline.py",
+      "origin_path": "tests/services/ai/test_ai_pipeline.py",
+      "sha256": "6caaa1ec7f0740d2868c41b0ccf778e3a1193f670479474dd32ffd0cf00c8925"
+    },
+    {
+      "path": "tests/services/ai/test_ai_service.py",
+      "origin_path": "tests/services/ai/test_ai_service.py",
+      "sha256": "fb56f8c1292de9c92f3c67189bd63fedc28039622913be171a931147977ca3c8"
+    },
+    {
+      "path": "tests/services/ai/test_dss_scenarios.py",
+      "origin_path": "tests/services/ai/test_dss_scenarios.py",
+      "sha256": "f974fac48330b3b244d51c1cde8e89c64eeb352615556d80e2a7735a0a1118fa"
+    },
+    {
+      "path": "tests/services/analytics/test_analytics_pipeline.py",
+      "origin_path": "tests/services/analytics/test_analytics_pipeline.py",
+      "sha256": "26a2042c6cba65b7a4d798528ffbe42fad2c273d2e071eace13dcdc84e52e0c7"
+    },
+    {
+      "path": "tests/services/analytics/test_analytics_service.py",
+      "origin_path": "tests/services/analytics/test_analytics_service.py",
+      "sha256": "9b630fab107b6ab67e30499f73d51c901e0aabf56ed1adb55321106524bae26b"
+    },
+    {
+      "path": "tests/services/demography/__init__.py",
+      "origin_path": "tests/services/demography/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/demography/test_demography_pipeline.py",
+      "origin_path": "tests/services/demography/test_demography_pipeline.py",
+      "sha256": "cddecee11690920b12d736568a841081b00fe03420f9dfb26215f471e8807a6d"
+    },
+    {
+      "path": "tests/services/demography/test_demography_service.py",
+      "origin_path": "tests/services/demography/test_demography_service.py",
+      "sha256": "2630faf318fbfc67653baa3275753f285fc1980b093287d0935217c88751034c"
+    },
+    {
+      "path": "tests/services/environment/__init__.py",
+      "origin_path": "tests/services/environment/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/environment/test_environment_pipeline.py",
+      "origin_path": "tests/services/environment/test_environment_pipeline.py",
+      "sha256": "4ff2817a38fa3b4832d37e67a77fdc1a617a604b61c43124e94128b8bb186f2b"
+    },
+    {
+      "path": "tests/services/environment/test_environment_service.py",
+      "origin_path": "tests/services/environment/test_environment_service.py",
+      "sha256": "0c5ce2fcb4ec80e96fceafba410cd3cb49e7004bd7d01c16a6810309409c8c3a"
+    },
+    {
+      "path": "tests/services/health/__init__.py",
+      "origin_path": "tests/services/health/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/health/test_health_pipeline.py",
+      "origin_path": "tests/services/health/test_health_pipeline.py",
+      "sha256": "18056cb645df891bf9093c39ac606e759334ff9c410834378320bbdb831a2783"
+    },
+    {
+      "path": "tests/services/health/test_health_service.py",
+      "origin_path": "tests/services/health/test_health_service.py",
+      "sha256": "37641828e5da586cc766fa9fd04b72f407332bb91e57b84a46f7939d8fe3d5b5"
+    },
+    {
+      "path": "tests/services/integration/__init__.py",
+      "origin_path": "tests/services/integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/integration/test_integration_pipeline.py",
+      "origin_path": "tests/services/integration/test_integration_pipeline.py",
+      "sha256": "32dc8637024ca3404bc9c9a5740ced53822c336501ac2cff6bb8f69ad9b0881f"
+    },
+    {
+      "path": "tests/services/integration/test_integration_service.py",
+      "origin_path": "tests/services/integration/test_integration_service.py",
+      "sha256": "0e07f84b098e4083182d2a3101dc17be0f9034cc7ba50a5a2596cc5ba54fdbbc"
+    },
+    {
+      "path": "tests/services/meteorology/__init__.py",
+      "origin_path": "tests/services/meteorology/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/meteorology/test_meteorology_pipeline.py",
+      "origin_path": "tests/services/meteorology/test_meteorology_pipeline.py",
+      "sha256": "6faf2394e060388f649bffbd7a5455e46111b86acfc0862c713f013802c3c1e8"
+    },
+    {
+      "path": "tests/services/meteorology/test_meteorology_service.py",
+      "origin_path": "tests/services/meteorology/test_meteorology_service.py",
+      "sha256": "7188e3ebd882e5269360b37fd1490fc9e3ca4556f074a072f56e635740822dd5"
+    },
+    {
+      "path": "tests/services/orchestrator/test_orchestrator_service.py",
+      "origin_path": "tests/services/orchestrator/test_orchestrator_service.py",
+      "sha256": "617b22db8599c7864ba913cc30e85e7661fa423bd47c6ea061cf561270f13e8e"
+    },
+    {
+      "path": "tests/test_arpa_query.py",
+      "origin_path": "tests/test_arpa_query.py",
+      "sha256": "20fa52a8f6190386979b6f05419e316a8c0848ff61376b9488bea6eaf68bd057"
+    },
+    {
+      "path": "tests/test_environment_historical.py",
+      "origin_path": "tests/test_environment_historical.py",
+      "sha256": "6ac192368b2ba75fca9ed732fca1ced8261797e6252bec5612e84188863aed8d"
+    },
+    {
+      "path": "tests/test_one_health_ml_longitudinal.py",
+      "origin_path": "tests/test_one_health_ml_longitudinal.py",
+      "sha256": "10136b2722672b437382245a8dab90c7108b8859db1f3c5544e69d5da5df0381"
+    },
+    {
+      "path": "verifica_codice_onehealth.py",
+      "origin_path": "verifica_codice_onehealth.py",
+      "sha256": "968d356487bf15cd9316cebf8db685a6e0de052fd6256c04bdaabc0dd96fe260"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "Dockerfile",
+      "sha256": "0f7950ecc00b2caebca7d909b0a35272b3b8c02e2f0b233b7849d60e2d54eb18"
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/api/one_health_routes.py",
+      "sha256": "4ab633a93bbbf5493103153d2eb3cd34f28335def7cb27bdfd076d35127eac29"
+    },
+    {
+      "path": "app/api/research_routes.py",
+      "sha256": "48f6bfdc160e8e300e755733b6dcc95bc141f04bfa20e52879da34c6a96cd7e5"
+    },
+    {
+      "path": "app/api/routes.py",
+      "sha256": "c63e42e74da2e93a61a9f4ef11a59f6e500c91cf6a7e77093c1feee9337aacc8"
+    },
+    {
+      "path": "app/core/database.py",
+      "sha256": "59e9db48836ab62bcfccd5739a8bdbb66a1f82f7cc3cc51de454cc352edbf430"
+    },
+    {
+      "path": "app/main.py",
+      "sha256": "9a108a174361ff02936aeec47a0be6bdb4504b74b3c07035bc3f2e48cafe4380"
+    },
+    {
+      "path": "app/models/__init__.py",
+      "sha256": "0e4a1ea46ea65aa23044472c3eef8fb2b89ba612c95ff4afc381f6c26b88270b"
+    },
+    {
+      "path": "app/models/data_quality_issue.py",
+      "sha256": "abbc1d8d7a4c336a762467b37ee2777fe3772d8b8ffbf9b1135384fcfb39d1b8"
+    },
+    {
+      "path": "app/models/environmental_measurement.py",
+      "sha256": "435e76c0d11bcce97e2024ac125a5b352bdba876dd2e5e1adb6a13c4df014d4b"
+    },
+    {
+      "path": "app/models/ingestion_run.py",
+      "sha256": "492cfc49df9aaad7bea11acf66700d8d00f35727367fc2aba70f14e767c8fe77"
+    },
+    {
+      "path": "app/models/monitoring_station.py",
+      "sha256": "1a9e62d5d924de13764c77b71f2fa6cd7f9ed761ae77266d48317e5228d5cf72"
+    },
+    {
+      "path": "app/models/pollutant.py",
+      "sha256": "38262a3a70f7b955b198bff80418840e34a1607184f30a547ae422e9eafca924"
+    },
+    {
+      "path": "app/research/artifact_repository.py",
+      "sha256": "bc0c1ea58cc6a36f0c30eaaf7379f2989019055030bd7ea573196d8a56490f45"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/services/one_health.py",
+      "sha256": "a12b050b962d9566f08977624f7e84d86a467cc3524abdc254208e3e1ecb8b57"
+    },
+    {
+      "path": "config/one_health/artifact_governance_v1.json",
+      "sha256": "990cd18e5c6f0db11e650ebff77400cb07a825283ee0476b6e62b375139c3837"
+    },
+    {
+      "path": "config/one_health/comuni_puglia.csv",
+      "sha256": "6d237eba861204274d7c88a8c1a5b306b3409d9fad99e550f6bd43c94f03fd02"
+    },
+    {
+      "path": "config/one_health/release_products.json",
+      "sha256": "c534776cbc8e375588937e74c804fbc3fba3630f3761558e77eecc0792eaa420"
+    },
+    {
+      "path": "config/one_health/source_registry_v1.json",
+      "sha256": "1e7d40a651128bc44815c7c0991ae3efb8138bf21ddc27cd3130b08fbebe3c09"
+    },
+    {
+      "path": "config/one_health/stazioni_dashboard.csv",
+      "sha256": "d225cd40d4f4ea7d261ebfba0403fa7ae8d374b47cd4cf3006328614afbfafcd"
+    },
+    {
+      "path": "docker-compose.yml",
+      "sha256": "d46ae05ad720b05b92831015e6001eca161fcbdec1b387920794e08ffba71058"
+    },
+    {
+      "path": "etl/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/audit.py",
+      "sha256": "a7448e0236b98519e530f14c04a911fd350e9c0fd2cf2e68ae0054af054824e8"
+    },
+    {
+      "path": "etl/cli.py",
+      "sha256": "22a7d86d721de4985efadb279eb603fb23dedaaf68681dcf3180b28beef56b22"
+    },
+    {
+      "path": "etl/clients/health_ckan.py",
+      "sha256": "b1521696e782dd411135fe869590b14869dcd16b504782be10096fe4b65423a7"
+    },
+    {
+      "path": "etl/clients/istat_demography.py",
+      "sha256": "229062c62a5c1c5b531fdb26f6ea822497fcca1b3886f92c82de0fe7a9ec2841"
+    },
+    {
+      "path": "etl/clients/meteorology_ckan.py",
+      "sha256": "45fa3e5eaa35be5f9542ba8ea6b8ab0492699d32262f6f87c9b0a95a0499730f"
+    },
+    {
+      "path": "etl/clients/puglia_ckan.py",
+      "sha256": "7b7c24e46988a0dccf743c11c0c96f48fdbf953a5028f95be393f97340b5fe4a"
+    },
+    {
+      "path": "etl/config.py",
+      "sha256": "cc3135213f9b701f92459c73d9aa40d8184b3473341078b842efbb916bdea414"
+    },
+    {
+      "path": "etl/connectors/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/connectors/arpa_client.py",
+      "sha256": "95b01ef0a7fcc6a84c35f119cecbe58119ddab26dc0134c9d17678f5034788a5"
+    },
+    {
+      "path": "etl/integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/integration/one_health.py",
+      "sha256": "2fdda807e845f00c4882896ba41426e35337e37c431fe48d7e3bb3a5d78acea5"
+    },
+    {
+      "path": "etl/loaders/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/loaders/database.py",
+      "sha256": "710d07e9c77c5049cda0c2ce0a835f3cea26d42f858417337c1f12048a639054"
+    },
+    {
+      "path": "etl/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/models/arpa.py",
+      "sha256": "2e3b03c994a5a5e0dccf11ca024cd5ee2472f0d2a4e6f8d886fa85c6aa854ae7"
+    },
+    {
+      "path": "etl/parsers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/parsers/demography.py",
+      "sha256": "ac8f5e57aefb23626d6c42556690a4555347c407be6374a0061fed6762b6381d"
+    },
+    {
+      "path": "etl/parsers/health.py",
+      "sha256": "39dbab225f501f50fe2eefc149818171d0ae56bdc64db43888328b001b8720c3"
+    },
+    {
+      "path": "etl/parsers/measurements.py",
+      "sha256": "7e7e9261db78434d7deecfd0779f6dab1fd00b6df6f8be637caf772f2839a91e"
+    },
+    {
+      "path": "etl/parsers/meteorology.py",
+      "sha256": "c182a1042f0fde87781d8e82ef51b16127259f554169d425a8ee95ef62a653b0"
+    },
+    {
+      "path": "etl/parsers/pollutants.py",
+      "sha256": "a405055623029dd3442b2c79ecd7902627e9b0ebfe212e4de679a6665ef88f65"
+    },
+    {
+      "path": "etl/parsers/stations.py",
+      "sha256": "70df04ee5468558067b899b3ea21878bfdab2902c61733349dd1bb25db65b698"
+    },
+    {
+      "path": "etl/pipelines/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/pipelines/health.py",
+      "sha256": "a0407a0eb7f003beec3701c164928b6375e29d543ca58f862f0cd3210ff00bc7"
+    },
+    {
+      "path": "etl/pipelines/meteorology.py",
+      "sha256": "8b491f07563605f0c08c5096188aa470537fbcbfb4653bd971946c10adc42e1e"
+    },
+    {
+      "path": "etl/pipelines/one_health.py",
+      "sha256": "58e3b9fd31f3380fddeeb976a3b011d5eca1561084df99cb2c30fc6caea0e5ef"
+    },
+    {
+      "path": "etl/profilers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/profilers/csv_profiler.py",
+      "sha256": "457519f1a3e416bea3f9ed51da500f0ee53b40f51c2a1ecfd9fca59120c7ef45"
+    },
+    {
+      "path": "etl/release_guard.py",
+      "sha256": "98c31949fa7cdf74c83604186776681d9915a19f0e97bc02e9419cbfc4919324"
+    },
+    {
+      "path": "etl/reporters/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/reporters/one_health_quality.py",
+      "sha256": "e21d4ef636d6a6adbb6bd45e078b099766586633b7de2b5d75ee85713fc98ace"
+    },
+    {
+      "path": "etl/transformers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/transformers/demography.py",
+      "sha256": "eab8b5de2eaa954bcb7aac72a00a461e88fb61ff709ac4f4723cbffaf8b5f0cd"
+    },
+    {
+      "path": "etl/transformers/environment_historical.py",
+      "sha256": "888f45d09b48dbb128b2a77e0cebd1c4e0203ff14478e60f05ca67b936a429e7"
+    },
+    {
+      "path": "etl/transformers/health.py",
+      "sha256": "d6beade298acbade9d51fc50b71bdf9309487e28ce152fd26183025cafc07133"
+    },
+    {
+      "path": "etl/transformers/health_prevalence_historical.py",
+      "sha256": "83e9f6719404cb6e1d627e1800dc61d45ba42e3576da39e638199a169be78ce0"
+    },
+    {
+      "path": "etl/transformers/health_rates.py",
+      "sha256": "04749b0a1fa477e305428ea0be66d0ff8a9ff456a5c791b90b8446a83707ef86"
+    },
+    {
+      "path": "etl/transformers/measurements.py",
+      "sha256": "0074d7d4b2cabcec5acc0023940284a670288932ffa3130308358edff1f71909"
+    },
+    {
+      "path": "etl/transformers/meteorology.py",
+      "sha256": "e10664e2f2fa09b8b4fa1f88d95a92ba2e447ad403687e4a851db8a56a28a011"
+    },
+    {
+      "path": "etl/transformers/meteorology_asl.py",
+      "sha256": "f9d4b2fb8943169153165f042ea24e4278da4f9af45ba308a981c590ce8a064c"
+    },
+    {
+      "path": "etl/transformers/meteorology_daily.py",
+      "sha256": "ecb0a4ac2532c96ea16b9b0d68af382556a52742f4b52ff4cc096dd29bfd197d"
+    },
+    {
+      "path": "etl/transformers/one_health.py",
+      "sha256": "58e1a9b6417b1c7bcd83073b8869211956f230abdfcfc6193e8cd5882e3d9ece"
+    },
+    {
+      "path": "etl/transformers/one_health_ml_longitudinal.py",
+      "sha256": "b7450a74672c592524d7f74a7206878c876d764eb41b09f5ce30eb0e7f471a9e"
+    },
+    {
+      "path": "etl/transformers/pollutants.py",
+      "sha256": "d68bc8314bea99d5db2a6c7bddf9b41cb983d3890867aa8eac3a3053faeff0b8"
+    },
+    {
+      "path": "etl/transformers/stations.py",
+      "sha256": "d52a2e3696319556840fd0ad337e01156552595497c2a145ab6afa965a061d7a"
+    },
+    {
+      "path": "etl/update_status.py",
+      "sha256": "8ccb83bb5dcfa0142793b1bb6a29d36ff869f449188063efb5e0a559c905d504"
+    },
+    {
+      "path": "etl/validators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/validators/health.py",
+      "sha256": "6bd35c6653f10bb0b1c34f569b8da1f2b8ab0cef93fd89e36affa7856d82b782"
+    },
+    {
+      "path": "etl/validators/measurements.py",
+      "sha256": "74f4fffaa74923a0785cd60633b1f0d3d84ac7683a69fdeaf3209fa12a05df56"
+    },
+    {
+      "path": "etl/validators/meteorology.py",
+      "sha256": "5637d7d179c75e0ff6e53de1e40ddf71039d9164f397abc12b458eb5d08a870f"
+    },
+    {
+      "path": "etl/validators/pollutants.py",
+      "sha256": "e00692dec12c3fdae0fa7a1222e65b0f2afa8f53485bc2ca49e64eaaf7b7fd4d"
+    },
+    {
+      "path": "etl/validators/stations.py",
+      "sha256": "cf7d2277bce6592d11c4bb49aa9259868f10705c1ca94b408ce31d22d32174b4"
+    },
+    {
+      "path": "etl/versioning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etl/versioning/dataset_manifest.py",
+      "sha256": "7df1212311158545512614a79be6b362215fa4a4fdd888d989773c3318a2b4d5"
+    },
+    {
+      "path": "gateway/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "35e7b6dbcca580adcca81425cfc3fc2321ce1f2cbebed700b0b09ebeb506d9e8"
+    },
+    {
+      "path": "scripts/build_one_health_ml_longitudinal.py",
+      "sha256": "7e8262aacc6b6c6b03154dd6e4c60d7041e23ef58aabc8d89187e485fe980882"
+    },
+    {
+      "path": "scripts/create_tables.py",
+      "sha256": "6e95b026695b6adb5f916b86de1acf0df2cdac070f66571274b2efcbc5648213"
+    },
+    {
+      "path": "scripts/maintenance/cleanup_root_wrappers.py",
+      "sha256": "a57600bd25abb551ccf5963f045b8741291d40754625864e0eda73565b669b84"
+    },
+    {
+      "path": "scripts/maintenance/export_code.py",
+      "sha256": "168309bc3e7e16578001f29aa05b22670fe6b7e791f2dd68656ad398da8db283"
+    },
+    {
+      "path": "scripts/maintenance/onehealth_runtime.py",
+      "sha256": "1c746a06c757e5608bdce2a3f8305b128d84c0c0c0eab442cb29d1b1005b6c89"
+    },
+    {
+      "path": "scripts/one_health/artifact_access.py",
+      "sha256": "3e4b9e0c349fa42dfc28784b436c1eda4b9a522f3e5d381a9ca75d91bc9ed87c"
+    },
+    {
+      "path": "scripts/one_health/build_dss_2024.py",
+      "sha256": "5180d89bdf10ace8ff563f72c8f990f42344a542774bace2bf5ed58641021273"
+    },
+    {
+      "path": "scripts/one_health/build_dss_monthly.py",
+      "sha256": "261afceadf79ecb7e86db5942e4a55bea4b7ace315987413709cc8372c44a0f9"
+    },
+    {
+      "path": "scripts/one_health/coordinate_updates.py",
+      "sha256": "3bff64a80cc82132d22a3b7bcb82a9d70f92cc59ee92c016d3489542a621e5b7"
+    },
+    {
+      "path": "scripts/one_health/pending_updates.py",
+      "sha256": "bd27cb01900523f16d41f8af79e2f62ad82a9ce765183977e003531a58426535"
+    },
+    {
+      "path": "scripts/one_health/promotion_audit.py",
+      "sha256": "fc92cd33237bfec0d8dd1c7ce696ad98b6eead7bb4d0a74820cec554f7c7c547"
+    },
+    {
+      "path": "scripts/one_health/promotion_review.py",
+      "sha256": "c3097d61a8d037318dee57464b888e27f4e6d53a2ef0276752d1094e215cc102"
+    },
+    {
+      "path": "scripts/one_health/source_status.py",
+      "sha256": "fad0de3930b595957cc16313f3153c24409cccdd0e297e870241cd37caf971f1"
+    },
+    {
+      "path": "scripts/one_health/update_plan.py",
+      "sha256": "85e0b68a6e3062ba5d088f869baae96758bed5059ba073a92b666d81497fcff0"
+    },
+    {
+      "path": "services/ai/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/ai/app/dss_repository.py",
+      "sha256": "8632c775dd8da65a07167c04beee158abcb029efb986032e947235496f47a41d"
+    },
+    {
+      "path": "services/ai/app/main.py",
+      "sha256": "659ff503b7c93a3fa0440c71dbfb8739348f8cdca0ca964e498b13d9b1a7d4b3"
+    },
+    {
+      "path": "services/ai/app/routes.py",
+      "sha256": "bff59db7673f0035250bf30b471a58b87413de8341e7ff014cc2518a852fee0a"
+    },
+    {
+      "path": "services/ai/app/scenarios.py",
+      "sha256": "02b5f318234b2946360551a17944e00ae68175f5265aa40439d30ec0c8a8567d"
+    },
+    {
+      "path": "services/ai/app/service.py",
+      "sha256": "10fa129129c67177980c41d00a9429e4dca68600d99edc9608c3b57ece49ce62"
+    },
+    {
+      "path": "services/analytics/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/analytics/app/main.py",
+      "sha256": "113cb3fed978971e09928144c40a63e1ea1d0ff6322ca3a6676a33d4b87fcf40"
+    },
+    {
+      "path": "services/analytics/app/repository.py",
+      "sha256": "356fe51644d9f75686aabe7e5b992c17ccb74ea48221761bea173c13a3f321bc"
+    },
+    {
+      "path": "services/analytics/app/routes.py",
+      "sha256": "0a08c7e550b2a6377933951f095d9353118362e2ed9b0c6ae3ab521819a7533b"
+    },
+    {
+      "path": "services/analytics/app/service.py",
+      "sha256": "7c94527a06ca5c28e096f0d1c0d62c7f121ba3de5d041e7e8a78951154744453"
+    },
+    {
+      "path": "services/decision_support/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/demography/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/demography/app/ingestion.py",
+      "sha256": "2d5ad898391f8014fc91ef502dc954104c6e215adecdbfa88773896c049bd171"
+    },
+    {
+      "path": "services/demography/app/main.py",
+      "sha256": "3fd03b05b48cc4b077607b83324b166ad634bc61d5cb74228b949b347f2f7fef"
+    },
+    {
+      "path": "services/demography/app/repository.py",
+      "sha256": "6fb5e4d7bbccdbe47d682ff49c4da12f091d1cc4740e8f256a7d014c772daa1f"
+    },
+    {
+      "path": "services/demography/app/routes.py",
+      "sha256": "7011d4784eeefc696459c64c6741c1ba8132d0872ca861c4410c8562491481fd"
+    },
+    {
+      "path": "services/demography/app/service.py",
+      "sha256": "fc16d89dcc554b52b4f13dc42796874ed9ded33319b2fd5b27f9744fae51cefa"
+    },
+    {
+      "path": "services/environment/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/api/config.py",
+      "sha256": "cf8d72d8b6ef59f9c5aa422a6175343c50295dc78ec816d1fa4c8a8244cf1d81"
+    },
+    {
+      "path": "services/environment/app/api/routes.py",
+      "sha256": "54282e7b7ebf0a87eaffd7d2bfe582efc8b717efe918040b0091f5fa6c8c246a"
+    },
+    {
+      "path": "services/environment/app/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/infrastructure/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/environment/app/ingestion.py",
+      "sha256": "28c40d8e5a2b55decbcdd991e35b6c27221f15beea08ab081f87a0e6725fe308"
+    },
+    {
+      "path": "services/environment/app/main.py",
+      "sha256": "ec4372359636e6fd1ecac6533f9581ad1b841d88638adb60ab07b2fc68cb6fc0"
+    },
+    {
+      "path": "services/environment/app/repository.py",
+      "sha256": "b199bb224c74ead3352ad6367c53691841e23bb7a1d767f405a1bbc194b7ed64"
+    },
+    {
+      "path": "services/environment/app/routes.py",
+      "sha256": "aaf26005f1b9aafda3ebff40d547fc33da120adebb48e21512802cd01b1ae0ac"
+    },
+    {
+      "path": "services/environment/app/service.py",
+      "sha256": "73b182ff77ca273cc84a53ede2ea8eb1872a2d3e4420348589e178990ee61442"
+    },
+    {
+      "path": "services/health/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/api/routes.py",
+      "sha256": "4b5ce194918d34f026fa00558cbefa7e0c1741ca388fdf1afa4e8cf86af3d388"
+    },
+    {
+      "path": "services/health/app/api/schemas.py",
+      "sha256": "2c189cb99a7ab4f77597052f4b38dac747f6b4267196ea9122ddd17ccdca1977"
+    },
+    {
+      "path": "services/health/app/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/ingestion.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/parser.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/pipeline.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/service.py",
+      "sha256": "1bf56ada905e770051685f15af0378a511d1acfc7624d442bbaed430877434b9"
+    },
+    {
+      "path": "services/health/app/application/transformer.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/application/validator.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/infrastructure/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/infrastructure/health_ckan.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/health/app/infrastructure/health_repository.py",
+      "sha256": "7ebc8477895d702c7a20eabdd0ece3253308b7dfcf7e7fa584d76455fc6abbf5"
+    },
+    {
+      "path": "services/health/app/ingestion.py",
+      "sha256": "c58ef274c480b1a70e1ea2863134614ec5f3ab925355749b29b154073dc3b97b"
+    },
+    {
+      "path": "services/health/app/main.py",
+      "sha256": "252dfa4f4656e712148bad2b4c8384257f52ea20f7b122d356533c5938210136"
+    },
+    {
+      "path": "services/health/app/repository.py",
+      "sha256": "2b352065dd67ec479dfb736b01f18d64f96281be84c33b32667c52dc6a991735"
+    },
+    {
+      "path": "services/health/app/routes.py",
+      "sha256": "d29569eb298c19154e1e538bc92f5ab1428e8826def71db8f975f9bae54da6d9"
+    },
+    {
+      "path": "services/health/app/service.py",
+      "sha256": "ca4364ca26ba244876f64f839506172de29409de45dc318066478ae50afd5b57"
+    },
+    {
+      "path": "services/integration/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/integration/app/ingestion.py",
+      "sha256": "8a432b37883a18292e444bcfaa0af3b2f5a3fed19b86e544497a5bd7976afae8"
+    },
+    {
+      "path": "services/integration/app/main.py",
+      "sha256": "18a6cc19e88d50382ccdb13c9f90e9dd4d8bda9804c6c116a4fb0bfa90ddc1ca"
+    },
+    {
+      "path": "services/integration/app/repository.py",
+      "sha256": "39f4853cb562fe8463112b17c945053e39fe3153780b84e6c3e77cb12e17492d"
+    },
+    {
+      "path": "services/integration/app/routes.py",
+      "sha256": "f9ddbb2a83313a3dae7520984a093538b963309f41f766007eaad1eb98cea49c"
+    },
+    {
+      "path": "services/integration/app/service.py",
+      "sha256": "39c7181e79615a890c162d9aed005758a1503527e9f9f2d19992119076392269"
+    },
+    {
+      "path": "services/meteorology/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/meteorology/app/ingestion.py",
+      "sha256": "135600857e56cb31d54d9bfaa8b620d66633076aa4ecf32069c0c06fe88b9ca7"
+    },
+    {
+      "path": "services/meteorology/app/main.py",
+      "sha256": "a8717866502e1b50a52302542d583f496f7e38f34cab783c1361c6a0bdf3276d"
+    },
+    {
+      "path": "services/meteorology/app/repository.py",
+      "sha256": "2e6fe66a9fb3c8fc813798d9336730fd12353d98d27d504bc480b57a984a2a1d"
+    },
+    {
+      "path": "services/meteorology/app/routes.py",
+      "sha256": "b959a88f7e57c3d7e73f0321033fd69bbf432a655e7dcf6d3d5c9951af06d8d8"
+    },
+    {
+      "path": "services/meteorology/app/service.py",
+      "sha256": "d870055e656c8a7c5e2b66d3b5852c8e56b1cd7ef91e897074aec9fe8f3846a7"
+    },
+    {
+      "path": "services/orchestrator/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/orchestrator/app/client.py",
+      "sha256": "17e9601450a10d4e55dfbf0997172edbe5f43e177a6fbb393fd333b86d8a5a7b"
+    },
+    {
+      "path": "services/orchestrator/app/config.py",
+      "sha256": "c26b1d9b6725972f27d6ab04dfa74c93d052d64a2530689fa6d0cc1742ba0545"
+    },
+    {
+      "path": "services/orchestrator/app/main.py",
+      "sha256": "1976f0555ff8f44f80a45f26cb6d0f853f537396a85732d5eb230f700f3b93e2"
+    },
+    {
+      "path": "services/orchestrator/app/routes.py",
+      "sha256": "539e745b49fc572efc20d585f090898f61ee5ff0627a6b50ebf1121da54c384c"
+    },
+    {
+      "path": "services/orchestrator/app/service.py",
+      "sha256": "3b25f5ebb8f6115d7eba057987d705846d3f1f53c55d9e248062c8a3fa469462"
+    },
+    {
+      "path": "shared/contracts/events/__init__.py",
+      "sha256": "f2a12b64cc353009dee265db6978e29787d1989512aa7c09ca40dfaf0a90b789"
+    },
+    {
+      "path": "shared/contracts/events/base.py",
+      "sha256": "309bf0e6334bfd9084bd9716d85f1d86fce783042bab10965b8da39f4b2b45cf"
+    },
+    {
+      "path": "shared/contracts/events/environment.py",
+      "sha256": "d2cdbc4aad3bf3154bb139cc469122327aace0862d205309c8d86b5898d7fe57"
+    },
+    {
+      "path": "tests/services/ai/test_ai_pipeline.py",
+      "sha256": "6caaa1ec7f0740d2868c41b0ccf778e3a1193f670479474dd32ffd0cf00c8925"
+    },
+    {
+      "path": "tests/services/ai/test_ai_service.py",
+      "sha256": "fb56f8c1292de9c92f3c67189bd63fedc28039622913be171a931147977ca3c8"
+    },
+    {
+      "path": "tests/services/ai/test_dss_scenarios.py",
+      "sha256": "f974fac48330b3b244d51c1cde8e89c64eeb352615556d80e2a7735a0a1118fa"
+    },
+    {
+      "path": "tests/services/analytics/test_analytics_pipeline.py",
+      "sha256": "26a2042c6cba65b7a4d798528ffbe42fad2c273d2e071eace13dcdc84e52e0c7"
+    },
+    {
+      "path": "tests/services/analytics/test_analytics_service.py",
+      "sha256": "9b630fab107b6ab67e30499f73d51c901e0aabf56ed1adb55321106524bae26b"
+    },
+    {
+      "path": "tests/services/demography/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/demography/test_demography_pipeline.py",
+      "sha256": "cddecee11690920b12d736568a841081b00fe03420f9dfb26215f471e8807a6d"
+    },
+    {
+      "path": "tests/services/demography/test_demography_service.py",
+      "sha256": "2630faf318fbfc67653baa3275753f285fc1980b093287d0935217c88751034c"
+    },
+    {
+      "path": "tests/services/environment/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/environment/test_environment_pipeline.py",
+      "sha256": "4ff2817a38fa3b4832d37e67a77fdc1a617a604b61c43124e94128b8bb186f2b"
+    },
+    {
+      "path": "tests/services/environment/test_environment_service.py",
+      "sha256": "0c5ce2fcb4ec80e96fceafba410cd3cb49e7004bd7d01c16a6810309409c8c3a"
+    },
+    {
+      "path": "tests/services/health/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/health/test_health_pipeline.py",
+      "sha256": "18056cb645df891bf9093c39ac606e759334ff9c410834378320bbdb831a2783"
+    },
+    {
+      "path": "tests/services/health/test_health_service.py",
+      "sha256": "37641828e5da586cc766fa9fd04b72f407332bb91e57b84a46f7939d8fe3d5b5"
+    },
+    {
+      "path": "tests/services/integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/integration/test_integration_pipeline.py",
+      "sha256": "32dc8637024ca3404bc9c9a5740ced53822c336501ac2cff6bb8f69ad9b0881f"
+    },
+    {
+      "path": "tests/services/integration/test_integration_service.py",
+      "sha256": "0e07f84b098e4083182d2a3101dc17be0f9034cc7ba50a5a2596cc5ba54fdbbc"
+    },
+    {
+      "path": "tests/services/meteorology/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/services/meteorology/test_meteorology_pipeline.py",
+      "sha256": "6faf2394e060388f649bffbd7a5455e46111b86acfc0862c713f013802c3c1e8"
+    },
+    {
+      "path": "tests/services/meteorology/test_meteorology_service.py",
+      "sha256": "7188e3ebd882e5269360b37fd1490fc9e3ca4556f074a072f56e635740822dd5"
+    },
+    {
+      "path": "tests/services/orchestrator/test_orchestrator_service.py",
+      "sha256": "617b22db8599c7864ba913cc30e85e7661fa423bd47c6ea061cf561270f13e8e"
+    },
+    {
+      "path": "tests/test_arpa_query.py",
+      "sha256": "20fa52a8f6190386979b6f05419e316a8c0848ff61376b9488bea6eaf68bd057"
+    },
+    {
+      "path": "tests/test_environment_historical.py",
+      "sha256": "6ac192368b2ba75fca9ed732fca1ced8261797e6252bec5612e84188863aed8d"
+    },
+    {
+      "path": "tests/test_one_health_ml_longitudinal.py",
+      "sha256": "10136b2722672b437382245a8dab90c7108b8859db1f3c5544e69d5da5df0381"
+    }
+  ]
+}

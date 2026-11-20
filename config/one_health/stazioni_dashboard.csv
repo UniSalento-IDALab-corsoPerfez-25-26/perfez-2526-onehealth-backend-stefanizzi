@@ -1,0 +1,69 @@
+source_station_id,network,name,municipality,province
+8,RRQA,Monte S. Angelo - Ciuffreda,Monte Sant Angelo,Foggia
+10,RRQA,Manfredonia - Mandorli,Manfredonia,Foggia
+14,RRQA,Molfetta - Verdi,Molfetta,Bari
+17,RRQA,Bari - Caldarola,Bari,Bari
+18,RRQA,Statte - Sorgenti,Statte,Taranto
+19,RRQA,Taranto - Archimede,Taranto,Taranto
+20,RRQA,Taranto - Machiavelli,Taranto,Taranto
+21,RRQA,Taranto - San Vito,Taranto,Taranto
+22,RRQA,Taranto - Alto Adige,Taranto,Taranto
+23,RRQA,Mesagne - Via Udine,Mesagne,Brindisi
+24,RRQA,Brindisi - Via Taranto,Brindisi,Brindisi
+25,RRQA,San Pancrazio,San Pancrazio Salentino,Brindisi
+26,RRQA,San Pietro Vernotico,San Pietro Vernotico,Brindisi
+27,RRQA,Torchiarolo - Don Minzoni,Torchiarolo,Brindisi
+28,RRQA,Guagnano - Villa Baldassarri,Guagnano,Lecce
+29,RRQA,Lecce - Cerrate,Lecce,Lecce
+31,RRQA,Arnesano - Riesci,Arnesano,Lecce
+33,RRQA,Brindisi - Via dei Mille,Brindisi,Brindisi
+35,RRQA,Brindisi - Casale,Brindisi,Brindisi
+36,RRQA,Brindisi - SISRI,Brindisi,Brindisi
+37,RRQA,Taranto - CISI,Taranto,Taranto
+38,RRQA,Taranto - Talsano,Taranto,Taranto
+40,RRQA,Statte - Wind,Statte,Taranto
+41,RRQA,Grottaglie,Grottaglie,Taranto
+42,RRQA,Martina Franca,Martina Franca,Taranto
+47,RRQA,Lecce - Garigliano,Lecce,Lecce
+49,IL,Maglie,Maglie,Lecce
+50,RRQA,Galatina - I.T.C.  La Porta ,Galatina,Lecce
+51,RRQA,Campi Salentina,Campi Salentina,Lecce
+54,RRQA,Bari - Cavour,Bari,Bari
+55,RRQA,Bari - Kennedy,Bari,Bari
+62,RRQA,Lecce - Libertini,Lecce,Lecce
+63,RRQA,Andria - Vaccina,Andria,BAT
+64,RRQA,Altamura - Via Santeramo,Altamura,Bari
+65,RRQA,Casamassima - LaPenna,Casamassima,Bari
+66,RRQA,Monopoli - Aldo Moro,Monopoli,Bari
+67,RRQA,Brindisi - Terminal Passeggeri,Brindisi,Brindisi
+71,RRQA,Barletta - Casardi,Barletta,BAT
+72,RRQA,Francavilla Fontana,Francavilla Fontana,Brindisi
+75,RRQA,Massafra,Massafra,Taranto
+76,RRQA,Foggia - Rosati,Foggia,Foggia
+77,RRQA,Brindisi - Perrino,Brindisi,Brindisi
+78,IL,Brindisi - Cappuccini,Brindisi,Brindisi
+81,RRQA,Bari - Carbonara,Bari,Bari
+85,RRQA,San Severo - Azienda Russo,San Severo,Foggia
+90,RRQA,Bari - CUS,Bari,Bari
+92,RRQA,Monopoli - Liceo Artistico Russo,Monopoli,Bari
+93,RRQA,Torchiarolo - Fanin     ,Torchiarolo,Brindisi
+94,IL,Torchiarolo-Lendinuso,Torchiarolo,Brindisi
+95,RRQA,Surbo - Croce ,Surbo,Lecce
+96,RRQA,Ceglie Messapica,Ceglie Messapica,Brindisi
+97,RRQA,Modugno - EN02,Modugno,Bari
+98,RRQA,Modugno - EN03,Modugno,Bari
+99,RRQA,Modugno - EN04,Modugno,Bari
+100,ADI,Cokeria,Taranto,ILVA
+101,ADI,Tamburi - Via Orsini,Taranto,ILVA
+102,ADI,Riv1,Taranto,ILVA
+103,ADI,Direzione,Taranto,ILVA
+104,ADI,Meteo Parchi,Taranto,ILVA
+105,ADI,Portineria C,Taranto,ILVA
+106,IL,Bitonto - EN01,Bitonto,Bari
+107,IL,Palo del Colle - EN05,Palo del Colle,Bari
+108,RRQA,Cisternino,Cisternino,Brindisi
+109,IL,Barletta - Mezzo Mobile Via Trani,Barletta,BAT
+110,IL,Candela - Scuola,Candela,Foggia
+111,IL,Candela - Ex Comes,Candela,Foggia
+112,RRQA,San Severo  - Municipio,San Severo,Foggia
+113,IL,Galatina-Colacem,Galatina,Lecce

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "project": "OneHealthAI",
+  "architecture_phase": 3,
+  "policy": {
+    "default_access": "research_only",
+    "master_dss_requires_explicit_approval": true,
+    "automatic_promotion_allowed": false,
+    "missing_artifact_policy": "deny",
+    "unregistered_artifact_policy": "deny"
+  },
+  "artifacts": [
+    {
+      "id": "environment_qc_v1",
+      "path": "data/processed/one_health/research/environmental_exposure_2010_2025_QC_v1.parquet",
+      "type": "environmental_dataset",
+      "status": "provisional",
+      "master_dss_approved": false
+    },
+    {
+      "id": "hospital_qc_v1",
+      "path": "data/processed/one_health/research/consolidated_qc_v1/ml_hfa_hospital_CONSOLIDATED_QC_v1.parquet",
+      "type": "research_dataset",
+      "status": "provisional",
+      "master_dss_approved": false
+    },
+    {
+      "id": "mortality_qc_v1",
+      "path": "data/processed/one_health/research/consolidated_qc_v1/ml_hfa_mortality_CONSOLIDATED_QC_v1.parquet",
+      "type": "research_dataset",
+      "status": "provisional",
+      "master_dss_approved": false
+    },
+    {
+      "id": "hospital_predictions_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_hospital_QC_v1/predictions.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "hospital_summary_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_hospital_QC_v1/summary.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "hospital_annual_metrics_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_hospital_QC_v1/annual_metrics.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "hospital_prequential_selection_v2_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_hospital_QC_v1/prequential_selection_v2.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "mortality_predictions_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_mortality_QC_v1/predictions.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "mortality_summary_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_mortality_QC_v1/summary.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "mortality_annual_metrics_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_mortality_QC_v1/annual_metrics.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "mortality_prequential_selection_v2_csv",
+      "path": "data/processed/one_health/research/benchmark_algorithms_mortality_QC_v1/prequential_selection_v2.csv",
+      "type": "research_result",
+      "status": "experimental",
+      "master_dss_approved": false
+    },
+    {
+      "id": "one_health_operational",
+      "path": "data/processed/one_health/one_health_dataset_2021_2023.parquet",
+      "type": "operational_dataset",
+      "status": "approved",
+      "master_dss_approved": true
+    },
+    {
+      "id": "environment_operational",
+      "path": "data/processed/one_health/environmental_exposure_asl_2021_2023.parquet",
+      "type": "operational_dataset",
+      "status": "approved",
+      "master_dss_approved": true
+    },
+    {
+      "id": "health_prevalence_operational",
+      "path": "data/processed/health/health_prevalence_2020_2023.parquet",
+      "type": "operational_dataset",
+      "status": "approved",
+      "master_dss_approved": true
+    },
+    {
+      "id": "bpco_prevalence_operational",
+      "path": "data/processed/health/bpco_prevalence_2020_2023.parquet",
+      "type": "operational_dataset",
+      "status": "approved",
+      "master_dss_approved": true
+    }
+  ]
+}

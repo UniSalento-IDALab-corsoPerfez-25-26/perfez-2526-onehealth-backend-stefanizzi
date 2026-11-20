@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "description": "Registro delle fonti OneHealthAI",
+  "sources": {
+    "environment": {
+      "provider": "ARPA Puglia",
+      "update_policy": "periodic",
+      "ingestion_mode": "operational_etl",
+      "status": "AVAILABLE",
+      "master_auto_promotion": false
+    },
+    "meteorology": {
+      "provider": "Open-Meteo",
+      "model": "era5_seamless",
+      "update_policy": "periodic",
+      "ingestion_mode": "historical_api",
+      "status": "AVAILABLE",
+      "partial_year_allowed": true,
+      "master_auto_promotion": false
+    },
+    "health": {
+      "provider": "ISTAT HFA",
+      "update_policy": "on_new_release",
+      "ingestion_mode": "local_source",
+      "status": "MANUAL_UPDATE_REQUIRED",
+      "master_auto_promotion": false
+    },
+    "demography": {
+      "provider": "ISTAT",
+      "update_policy": "on_new_release",
+      "ingestion_mode": "local_source",
+      "status": "MANUAL_UPDATE_REQUIRED",
+      "master_auto_promotion": false
+    }
+  }
+}

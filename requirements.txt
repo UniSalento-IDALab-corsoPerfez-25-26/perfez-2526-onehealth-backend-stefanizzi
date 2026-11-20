@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+pyarrow
+sqlalchemy
+psycopg[binary]
+geoalchemy2
+httpx
+requests
+pydantic-settings
+python-dotenv
+shapely
+typer>=0.12,<1
+rich>=13,<15
